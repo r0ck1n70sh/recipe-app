@@ -1,13 +1,17 @@
 # recipe-app
+<pre>
 It let's user search their favourite recipes, add recipe, edit
 and delete their own recipes.i.e. through user login, registration,
-profile creation. 
-Also user can view recipes by other users.
-
+profile creation.
+Also user can view recipes by other users.<br>
+</pre>
+<pre>
 Environment:
-  virtual user : me
-  OS: Ubuntu Linux
+  virtual user : me 
+  OS: Ubuntu Linux<br>
+</pre>
 
+<pre>
 dependencies:
     astroid==2.3.3
     Django==2.1.5
@@ -23,11 +27,13 @@ dependencies:
     pytz==2019.3
     six==1.14.0
     typed-ast==1.4.1
-    wrapt==1.11.2
+    wrapt==1.11.2<br>
+ </pre>
 
+<pre>
 Steps Required to run:
   Step 1. Setup project by:
               user@machine:$ bash setup.sh
   Step 2. Don't forget to setup mysql server (only for first time), just run 'script.sql'
-              user@machine:$ mysql script.sql
-              
+              user@machine:$ mysql script.sql<br>
+</pre>             

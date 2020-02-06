@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS recipedb;
+CREATE DATABASE recipedb
+    DEFAULT CHARACTER SET utf8
+    DEFAULT COLLATE utf8_general_ci;

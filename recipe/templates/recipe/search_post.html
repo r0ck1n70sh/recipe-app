@@ -1,0 +1,31 @@
+{% extends "recipe/base.html" %}
+{% block content %}
+    <nav class="navbar navbar-inverse navbar-fixed-top ">            <form class="form-inline" action="" method="GET">
+                {{ form }}
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    {% if search_text != "" %}
+            {% for post in posts %}
+                <article class="media content-section">
+                <img class="rounded-circle article-img" src="{{ post.author.profile.display_pic.url }}">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{post.author}}</a> 
+                    <small class="text-muted">{{post.date_posted|date:"d F Y"}}</small>
+                    </div>  
+                    <div class='card mb-3'>
+                        <img class="card-img-top" alt="Card image cap" src="{{ post.post_pic.url }}">
+                        <div class="card-body">      
+                            <h2><a class="article-title card-title" href="{% url 'recipe-detail' post.id%}">{{ post.title }}</a></h2>
+                            <p class="article-content card-text">{{post.description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        {% endif %}
+    {% if is_paginated %}
+        {% include "recipe/paginator.html" %}
+    {% endif %}    
+{% endblock %}

@@ -1,6 +1,6 @@
 AdvancedHTTPServer==2.2.0
 ajpy==0.0.4
-alembic==1.4.2.dev0
+alembic==1.4.2
 asgiref==3.2.10
 astroid==2.3.3
 attrs==19.3.0

@@ -202,7 +202,7 @@ urwid==2.0.1
 venusian==3.0.0
 vinetto==0.8.0
 wafw00f==2.1.0
-waitress==1.4.1
+waitress==1.4.3
 webargs==6.1.0
 WebOb==1.8.6
 websocket-client==0.53.0

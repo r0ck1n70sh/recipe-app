@@ -101,7 +101,7 @@ maxminddb==1.4.1
 mccabe==0.6.1
 meson==0.54.3
 mimerender==0.6.0
-mitmproxy==4.0.4
+mitmproxy==7.0.3
 msgpack==0.6.2
 mysqlclient==1.4.6
 nplusone==1.0.0

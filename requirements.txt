@@ -105,7 +105,7 @@ mitmproxy==4.0.4
 msgpack==0.6.2
 mysqlclient==1.4.6
 nplusone==1.0.0
-numpy==1.18.4
+numpy==1.22.0
 olefile==0.46
 packaging==20.3
 paramiko==2.6.0

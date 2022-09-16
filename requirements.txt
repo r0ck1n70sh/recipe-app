@@ -91,7 +91,7 @@ kiwisolver==1.0.1
 lazy-object-proxy==1.4.3
 ldap3==2.7
 lz4==3.0.2+dfsg
-Mako==1.0.7
+Mako==1.2.2
 Markdown==3.2.2
 MarkupSafe==1.1.1
 marshmallow==3.6.1
